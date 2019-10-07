@@ -1,0 +1,23 @@
+{
+  "name": "sprint-13",
+  "version": "1.0.0",
+  "description": "MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Kirill Kushpel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.2"
+  }
+}
