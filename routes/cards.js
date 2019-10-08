@@ -1,3 +1,5 @@
+
+// Роутер для карточек
 const cards = require('express').Router();
 const {
   createCard, getAllCards, deleteCard,

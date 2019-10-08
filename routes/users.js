@@ -1,3 +1,5 @@
+// Роутер для юзера
+
 const users = require('express').Router();
 const {
   createUser, getAllUsers, getSingleUser,

@@ -1,3 +1,5 @@
+// Создание карточек
+
 const Card = require('../models/card');
 
 module.exports.createCard = (req, res) => {
